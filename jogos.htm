@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blumenau Futsal - Jogos</title>
+</head>
+<body  style="font-family: Arial; background-color: #f2f2f2; text-align: center; padding-top: 100px;">
+    <h1>Blumenau Futsal</h1>
+    <p><strong>Orgulho da nossa cidade!</strong></p>
+
+    <hr>
+
+    <h2>Menu</h2><br>
+    <a href="index.htm">Página principal</a><br>
+    <a href="uniforme.htm">Uniformes</a><br>
+    <a href="elenco.htm">Elenco</a><br>
+    <a href="titulos.htm">Títulos</a><br>
+    <a href="jogos.htm">Próximos jogos</a><br>
+    <a href="base.htm">Inscrição para a base</a><br>
+    <a href="noticias.htm">Notícias</a><br>
+    <a href="quiz.htm">Quiz Blumenau Futsal</a><br>
+    <a href="loja.htm">Loja</a><br>
+    <a href="login.htm">Login</a>
+    <hr>
+
+    <h1>Blumenau Futsal</h1>
+    <p><strong>Orgulho da nossa cidade!</strong></p>
+
+    <hr>
+
+    <h2 id="jogos">Próximos Jogos</h2>
+    <h3>Jogos da Liga Nacional de Futsal(LNF)</h3>
+    <br>
+    
+    <strong>Sexta-feira, 23 de maio</strong> –Blumenau Futsal vs. Futuro ⏰ 20h30 📍 Complexo Esportivo do SESI, Blumenau/SC
+    <br>
+    <strong>Sábado, 31 de maio</strong> – Minas vs. Blumenau Futsal ⏰ 15:30 📍 Arena Minas Tênis Clube, Belo Horizonte/MG
+    <br>
+    <strong>Sábado, 07 de junho</strong> –Blumenau Futsal vs. Marreco ⏰ 17h30 📍 Complexo Esportivo do SESI, Blumenau/SC
+
+    <hr>
+
+    <form>
+        <h2>Adicionar Novo Jogo</h2>
+      
+        <label for="campeonato">Nome do Campeonato:</label>
+        <br>
+        <input type="text" id="nome-jogo" name="nome-jogo" required>
+        <br><br>
+      
+        <label for="data">Data:</label>
+        <br>
+        <input type="date" id="data" name="data" required>
+        <br><br>
+      
+        <label for="hora">Hora:</label>
+        <br>
+        <input type="time" id="hora" name="hora" required>
+        <br><br>
+      
+        <label for="local">Local:</label>
+        <br>
+        <input type="text" id="local" name="local" required>
+        <br><br>
+      
+        <label for="adversario">Adversário:</label>
+        <br>
+        <input type="text" id="adversario" name="adversario" required>
+        <br><br>
+
+        <label for="mandante">Mandante:</label>
+        <br>
+        <select id="mandante" name="mandante" required>
+            <option value="">Selecione a Posição</option>
+            <option value="goleiro">Casa</option>
+            <option value="fixo">Visitante</option>
+        </select>
+        <br><br>
+      
+        <button type="submit">Enviar</button>
+    </form>
+</html>
